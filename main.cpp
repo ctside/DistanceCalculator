@@ -3,7 +3,7 @@
 #include <curl/curl.h>
 
 #define API_KEY = "752d26308bcec67eb884e7fef8f566b9"
-// http://api.openweathermap.org/geo/1.0/direct?q=mons&limit=5&appid=752d26308bcec67eb884e7fef8f566b9
+// http://api.openweathermap.org/geo/1.0/direct?q=mons&limit=5&appid=752d26308bcec67eb884e7fef8f566b9 lol
 // https://openweathermap.org/api/geocoding-api
 
 class Point{
