@@ -1,11 +1,11 @@
 #include <iostream>
 #include <curl/curl.h>
 #include <string>
-#include <tuple>
+#include <tuple
 
 #include "point.h"
 #include "requests.h"
-#include "idk.cpp"
+#include "parse.h"
 
 // http://api.openweathermap.org/geo/1.0/direct?q=mons&limit=5&appid=752d26308bcec67eb884e7fef8f566b9 lol
 // https://openweathermap.org/api/geocoding-api
