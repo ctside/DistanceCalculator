@@ -1,5 +1,6 @@
 #include <rapidjson/document.h>
 #include <string>
+
 class Parse{
 
 // private:
