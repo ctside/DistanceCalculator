@@ -1,7 +1,7 @@
 #include <iostream>
 #include <curl/curl.h>
 #include <string>
-#include <tuple
+#include <tuple>
 
 #include "point.h"
 #include "requests.h"
