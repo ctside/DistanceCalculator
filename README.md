@@ -2,7 +2,7 @@
 
 c++ distance calculator using openweather api because why not
 # dependencies
-you'll need nlohmann-json and curl libraries, if you're using any non-minimal linux distro you should be fine
+you'll need ``nlohmann-json`` and ``curl`` libraries, if you're using any non-minimal linux distro you should be fine
 # Build
 Don't forget to put your api key as following : ``#define API_KEY = "{your_api_key}"`` inside ``main.cpp``
 
