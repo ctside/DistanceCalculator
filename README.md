@@ -11,5 +11,5 @@ If the stupid idea of using this piece of trash software ever crosses your mind,
 ``meson setup build`` \
 ``meson compile -C build``
 
-the binary will then be inside the build/ folder,\ you just have to run it using ``./DistanceCalculator {city1} {city2}``
+the binary will then be inside the build/ folder, \ you just have to run it using ``./DistanceCalculator {city1} {city2}``
 
