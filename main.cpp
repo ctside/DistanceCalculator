@@ -3,9 +3,7 @@
 #include <curl/curl.h>
 #include <curl/easy.h>
 #include <iostream>
-#include <iterator>
-// #include <rapidjson/document.h>
-// #include <json/json.h>
+// #include <iterator>
 #include <nlohmann/json.hpp>
 #include <numbers>
 #include <string>
@@ -117,7 +115,8 @@ int main(int argc, char **argv) {
     // std::cout << p2.parseJson()[0] << ":" << p2.parseJson()[1] << std::endl;
 
     Distance p1 = Distance(argv[1], argv[2]);
-    std::cout << p1.getDistance();
+    std::cout << argv[1] << " is " << p1.getDistance()
+              << " kilometers away from " << argv[2] << std::endl;
   } else {
     std::cout << "Wrong usage" << std::endl
               << "Please use the command as following : " << argv[0]

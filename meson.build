@@ -5,4 +5,5 @@ project('DistanceCalculator', 'cpp',
 dep = dependency('libcurl')
 executable('DistanceCalculator',
            'main.cpp',
-           dependencies : dep)
+           dependencies : dep,
+           override_options : ['cpp_std=c++20'])
