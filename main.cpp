@@ -10,7 +10,7 @@
 #include <tuple>
 #include <vector>
 
-#define API_KEY "752d26308bcec67eb884e7fef8f566b9"
+#define API_KEY ""
 
 using namespace nlohmann;
 
